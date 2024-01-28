@@ -61,3 +61,11 @@ try {
 } catch (error) {
   console.error("Test Case 6:", error.message); // Should throw "Array should have at least two elements"
 }
+
+// Test Case 6: Array with one element (should throw an error)
+const inputArray7 = [undefined, null, "1"];
+try {
+  console.log("Test Case 7:", findLargestDifference(inputArray6));
+} catch (error) {
+  console.error("Test Case 7:", error.message); // Should throw "Array should have at least two elements"
+}
